@@ -1,3 +1,5 @@
+#ifndef _PROJECT5_H
+#define _PROJECT5_H
 
 struct hash{
   int length;
