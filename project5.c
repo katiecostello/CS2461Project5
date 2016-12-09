@@ -161,6 +161,8 @@ void training(struct hash* b){
 }
 
 int main(){
+  printf("enter search query:\n");
+  
   struct hash* table = malloc(sizeof(struct hash));               //size is 8*length; length in bytes
   table->length = 10;
   int n;
@@ -172,4 +174,3 @@ int main(){
   
   return 0;
 }
-
