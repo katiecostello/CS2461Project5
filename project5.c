@@ -160,6 +160,10 @@ void training(struct hash* b){
 //   printf("%d\n", n);
 }
 
+void read_query(char* string){
+  
+}
+
 int main(){
   printf("enter search query:\n");
   
@@ -170,7 +174,8 @@ int main(){
   //print_table(table);
   training(table);
   struct bucket* b = malloc(sizeof(struct bucket));
-  print_bucket(b);
+  //print_bucket(b);
+  functions.createLList();
   
   return 0;
 }
